@@ -9,5 +9,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 442f53d70397f624da7f48d134e253f5, type: 3}
-  m_Name: ItemPickedUp
+  m_Name: OnItemPickedUp
   m_EditorClassIdentifier: 
