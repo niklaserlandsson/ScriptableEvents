@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-	List<Item> Items = new List<Item>();
+	private List<Item> Items = new List<Item>();
 
 	public void AddItem(Item item)
 	{

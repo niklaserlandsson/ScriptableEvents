@@ -7,8 +7,8 @@ public class Item : MonoBehaviour
 	public Material WorldMaterial;
 	public Renderer Renderer;
 
-	public ItemEvent OnPickUp;
-	public ItemEvent OnDrop;
+	public ItemEvent OnPickedUp;
+	public ItemEvent OnDropped;
 
 	public string GetName()
 	{
@@ -18,12 +18,12 @@ public class Item : MonoBehaviour
 	public void PickUp()
 	{
 		Renderer.material = InventoryMaterial;
-		OnPickUp.Raise(this);
+		OnPickedUp.Raise(this);
 	}
 
 	public void Drop()
 	{
 		Renderer.material = WorldMaterial;
-		OnDrop.Raise(this);
+		OnDropped.Raise(this);
 	}
 }

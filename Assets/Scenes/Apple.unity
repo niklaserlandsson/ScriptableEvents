@@ -410,8 +410,8 @@ MonoBehaviour:
   InventoryMaterial: {fileID: 2100000, guid: c9eb57f524aee1a41949d7c121160e43, type: 2}
   WorldMaterial: {fileID: 2100000, guid: 45633040f1560a3499bf66dab51f0c4e, type: 2}
   Renderer: {fileID: 739494276}
-  OnPickUp: {fileID: 11400000, guid: 126993aef21470b4f912555867d18e0c, type: 2}
-  OnDrop: {fileID: 11400000, guid: 0fe0ae5d11c19d1499f3411f94155fe5, type: 2}
+  OnPickedUp: {fileID: 11400000, guid: 126993aef21470b4f912555867d18e0c, type: 2}
+  OnDropped: {fileID: 11400000, guid: 0fe0ae5d11c19d1499f3411f94155fe5, type: 2}
 --- !u!4 &1370631825
 Transform:
   m_ObjectHideFlags: 0
@@ -553,8 +553,8 @@ MonoBehaviour:
   InventoryMaterial: {fileID: 2100000, guid: c9eb57f524aee1a41949d7c121160e43, type: 2}
   WorldMaterial: {fileID: 2100000, guid: 8412c9f0052cee243bb2f40c5662b00b, type: 2}
   Renderer: {fileID: 1548556903}
-  OnPickUp: {fileID: 11400000, guid: 126993aef21470b4f912555867d18e0c, type: 2}
-  OnDrop: {fileID: 11400000, guid: 0fe0ae5d11c19d1499f3411f94155fe5, type: 2}
+  OnPickedUp: {fileID: 11400000, guid: 126993aef21470b4f912555867d18e0c, type: 2}
+  OnDropped: {fileID: 11400000, guid: 0fe0ae5d11c19d1499f3411f94155fe5, type: 2}
 --- !u!4 &1946444924
 Transform:
   m_ObjectHideFlags: 0
