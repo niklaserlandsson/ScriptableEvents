@@ -12,4 +12,6 @@ The ItemEventListener listens to the OnItemPickedUp event (by adding itself to t
 
 When clicking an Item in the game view the ItemEvent on the Item is raised.
 
-The ItemUnityEvent on the listener will be invoked as the response to the event.
+The ItemUnityEvent on the listener will be invoked as the response to the event and the Item will be added to the Inventory.
+
+Right clicking the Item in the game view will raise the event OnItemDropped, which removes the Item from the Inventory.
